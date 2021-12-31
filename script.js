@@ -21,10 +21,6 @@ function colorirPaletas() {
     paletas[i].style.backgroundColor = `rgb(${cor()},${cor()},${cor()})`;
   }
   document.getElementById('rgb-color').innerText = `${sortearCor()}`;
-  // provisório
-  for (let i = 0; i < paletas.length; i += 1) {
-    console.log(`${i} - ${paletas[i].style.backgroundColor}`);
-  }
 }
 
 function corSelecionada(evento) {
